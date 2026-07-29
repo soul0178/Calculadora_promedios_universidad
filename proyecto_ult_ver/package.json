@@ -1,0 +1,14 @@
+{
+  "name": "libreta-notas",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Herramientas de desarrollo (tests) para Libreta — la app en sí sigue sin build, se abre directo en el navegador.",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.9"
+  }
+}
